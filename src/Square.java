@@ -1,15 +1,9 @@
 public class Square {
     private int squareSide = 5;
 
-    public int printAreaOfSquare(){
+    public int getAreaOfSquare(){
         int areaOfSquare = squareSide * squareSide;
-        System.out.println(String.format("Area of square is %d", areaOfSquare));
-        return  areaOfSquare;
-    }
-
-    public int calculationAndPrintAreaOfSquareWithGivenSide(int squareSide){
-        int areaOfSquare = squareSide * squareSide;
-        System.out.println(String.format("Area of square is %d", areaOfSquare));
+        System.out.println(String.format("%d", areaOfSquare));
         return  areaOfSquare;
     }
 }
